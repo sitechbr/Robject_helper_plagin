@@ -1,0 +1,42 @@
+[
+    {
+        "type": "lcString",
+        "detail": "Преобразование к строке",
+        "snippet": "$0 = to_string($1) ?? null"
+    },
+    {   
+        "type": "lcString",
+        "detail": "Преобразование к нижнему регистру",
+        "snippet": "$0 = downcase($1) ?? null"
+    },
+    {
+        "type": "string",
+        "detail": "Преобразование к строке",
+        "snippet": "$0 = to_string($1) ?? null"
+    },
+    {   
+        "type": "string",
+        "detail": "Преобразование к нижнему регистру",
+        "snippet": "$0 = downcase($1) ?? null"
+    }, 
+    {   
+        "type": "ipv4",
+        "detail": "Преобразование к ipv4",
+        "snippet": "$0 = ipv6_to_ipv4($1) ?? null"
+    }, 
+    {   
+        "type": "ipv6",
+        "detail": "Преобразование к ipv6",
+        "snippet": "$0 = ip_to_ipv6($1) ?? null"
+    }, 
+    {   
+        "type": "uint",
+        "detail": "Преобразование к num",
+        "snippet": "$0 = to_int($1) ?? null"
+    }, 
+    {   
+        "type": "dateTime",
+        "detail": "Преобразование к num",
+        "snippet": "$0 = parse_timestamp(f_log.date,\"%d/%B/%Y:%X %z\") ?? null"
+    }
+]
